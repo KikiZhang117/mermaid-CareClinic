@@ -24,7 +24,7 @@ graph TB
 
 ```mermaid
 graph TD
-  A[User<br>"Start breathing"] --> B{Keyword Analysis}
+  A[User: "Start breathing"] --> B{Keyword Analysis}
   B -->|Match: "help"| C[Trigger Emergency Protocol]
   B -->|Match: "begin"| D[Initiate Biofeedback]
   D --> E[Predictive Alerting]
@@ -52,7 +52,7 @@ graph LR
 
 ```mermaid
 graph BT
-  Q[User<br>"I need rest"] --> R{Emotion Analysis}
+  Q[User: "I need rest"] --> R{Emotion Analysis}
   R -->|Stress > 7/10| S[Affective Response]
   R -->|Stress ≤ 7/10| T[Ambient Monitoring]
   S --> U["Play: Guided Meditation"]
