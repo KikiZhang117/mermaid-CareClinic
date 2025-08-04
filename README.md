@@ -23,7 +23,7 @@ graph TB
 ## diagram / 02 / Puff mode
 
 ```mermaid
-graph TD
+graph TD 
   A[User: "Start breathing"] --> B{Keyword Analysis}
   B -->|Match: "help"| C[Trigger Emergency Protocol]
   B -->|Match: "begin"| D[Initiate Biofeedback]
@@ -51,7 +51,7 @@ graph LR
 ## diagram / 04 / Rest mode
 
 ```mermaid
-graph BT
+graph BT 
   Q[User: "I need rest"] --> R{Emotion Analysis}
   R -->|Stress > 7/10| S[Affective Response]
   R -->|Stress ≤ 7/10| T[Ambient Monitoring]
