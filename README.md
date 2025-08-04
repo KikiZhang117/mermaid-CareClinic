@@ -25,10 +25,10 @@ graph TB
 ```mermaid
 graph TD 
   A[User - Start breathing] --> B{Keyword Analysis}
-  B -->|Match: "help"| C[Trigger Emergency Protocol]
-  B -->|Match: "begin"| D[Initiate Biofeedback]
+  B -->|Match: help| C[Trigger Emergency Protocol]
+  B -->|Match: begin| D[Initiate Biofeedback]
   D --> E[Predictive Alerting]
-  E -->|RR > 30| F[Voice: "Slow your pace"]
+  E -->|RR > 30| F[Voice: Slow your pace]
   E -->|RR ≤ 30| G[Haptic: Sync pulses]
   C --> H[Notify Care Team]
   style C stroke:#ff0000,stroke-width:4px
@@ -55,7 +55,7 @@ graph BT
   Q[User - I need rest] --> R{Emotion Analysis}
   R -->|Stress > 7/10| S[Affective Response]
   R -->|Stress ≤ 7/10| T[Ambient Monitoring]
-  S --> U["Play: Guided Meditation"]
+  S --> U[Play: Guided Meditation]
   T --> V[Adjust Environment]
   V -->|Dim Lights to <15lux| W[Biofeedback Loop]
   style S fill:#e3f7fc,stroke:#333
